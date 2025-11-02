@@ -17,5 +17,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/icons/
+    - assets/icons/elephant_head.png
+    - assets/icons/donkey_head.png
+    - assets/icons/Pelosi.jpg
+    - assets/icons/McConnell.jpg

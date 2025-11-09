@@ -382,7 +382,7 @@ class _GameScreenState extends State<GameScreen> {
         ),
         backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white,
-        automaticallyImplyLeading: true, // ← ADD THIS
+        automaticallyImplyLeading: true,
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,

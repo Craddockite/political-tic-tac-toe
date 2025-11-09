@@ -375,18 +375,19 @@ class _GameScreenState extends State<GameScreen> {
   // ---------- UI ----------
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          '${_partyName(widget.playerParty)} vs ${_partyName(_getOpponent())}',
-        ),
-        backgroundColor: Colors.deepPurple,
-        foregroundColor: Colors.white,
-        automaticallyImplyLeading: true,
-      ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+  return Scaffold(
+  backgroundColor: Colors.grey[100],
+  appBar: AppBar(
+    title: const Text('Choose Your Party'),
+    backgroundColor: Colors.grey[100],
+    foregroundColor: Colors.deepPurple,
+    elevation: 0,
+    automaticallyImplyLeading: true, // ← back arrow to Home
+  ),
+  body: Center(
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
           // Status
           Padding(
             padding: const EdgeInsets.all(20.0),

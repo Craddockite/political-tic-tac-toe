@@ -33,8 +33,8 @@ class ChoosePartyScreen extends StatelessWidget {
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
         title: const Text('Choose Your Party'),
-        backgroundColor: Colors.grey[100],
-        foregroundColor: Colors.deepPurple,
+        backgroundColor: Colors.cyan[400],
+        foregroundColor: Colors.black87,
         elevation: 0,
         automaticallyImplyLeading: true,
       ),
@@ -45,10 +45,9 @@ class ChoosePartyScreen extends StatelessWidget {
             const Text(
               'Choose Your Party',
               style: TextStyle(
-                fontSize: 36,
-                fontWeight: FontWeight.bold,
-                color: Colors.deepPurple,
-              ),
+                  fontSize: 36,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black87),
             ),
             const SizedBox(height: 60),
             _buildPartyButton(
